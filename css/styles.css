@@ -81,9 +81,16 @@ p{
 .contact-me{
   margin-bottom: 40px;
 }
+a{
+  text-decoration: none;
+}
 .btn{
+  display: inline-block;
+  width: 120px;
+  height: 20px;
   background-color: #1b1717;
   color:#fef8e6;
+  text-decoration: None
   font-size: 1em;
   margin-top: 10px;
   border:None;
