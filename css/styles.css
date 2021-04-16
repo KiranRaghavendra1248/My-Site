@@ -48,6 +48,27 @@ hr{
   margin: 0px auto 140px;
   text-align: left;
 }
+.interest-row{
+  width: 50%;
+  margin: 0px auto 140px;
+  text-align: left;
+}
+.cricket{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.trek{
+  float:right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.guitar{
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
 .mountain{
   width: 35%;
   margin-top: 60px
