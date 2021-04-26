@@ -133,7 +133,6 @@ a{
   text-decoration: none;
 }
 .bottom-div{
-  width:60%;
   margin: auto;
 }
 .bottom-container{
@@ -142,7 +141,8 @@ a{
   padding: 80px 0 3%;
 }
 .white-p{
-    color: #fef8e6;
+  color: #fef8e6;
+
 }
 .footer-link{
   color: #fef8e6;
