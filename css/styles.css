@@ -8,17 +8,22 @@ body{
   font-size: 1.1em;
   color: #132c33;
 }
+#title{
+  background-color: #e0fffe;
+}
 .intro{
   font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-fluid{
+  padding: 0 10%;
 }
 h1{
   font-family: 'Dancing Script', cursive;
   font-size: 4.5em;
   padding-top: 150px;
-}
-h1:hover{
-  transform: scale(1.1);
-  transition: 450ms linear;
+  font-weight: 500;
+  margin-bottom:7%;
 }
 h2{
   margin-bottom: 25px;
@@ -73,6 +78,10 @@ hr{
 .skill-row{
   width: 50%;
   margin: 0px auto 140px;
+  text-align: left;
+}
+.nav-item{
+  padding: 0 15px;
   text-align: left;
 }
 .interest-row{
