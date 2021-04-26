@@ -26,12 +26,15 @@ h1{
   margin-bottom:7%;
 }
 h2{
+  font-weight: bolder;
+  margin:auto;
   margin-bottom: 25px;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3{
+  font-weight: bold;
   margin-bottom: 15px;
   font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
@@ -42,6 +45,9 @@ hr{
   border-top: dotted #194350 10px;
   margin: 70px auto
 }
+.row{
+  margin: 50px 0;
+}
 .cloud-right{
   position:absolute;
   top: 50%;
@@ -49,9 +55,7 @@ hr{
   display: inline-block;
   width: 30%;
 }
-.skills{
-  margin-bottom: 45px;
-}
+
 .cloud-left{
   position:absolute;
   top: 15%;
@@ -69,87 +73,76 @@ hr{
 }
 .profile-pic{
   margin-bottom: 20px;
+  width:40%;
 }
 .profile-pic:hover{
   transform: translate3d(0,-10px,0);
   box-shadow:0 10px 10px -1px #8a8a8a;
   transition: 250ms linear;
 }
-.skill-row{
-  width: 50%;
-  margin: 0px auto 140px;
-  text-align: left;
-}
 .nav-item{
   padding: 0 15px;
   text-align: left;
 }
-.interest-row{
-  width: 50%;
-  margin: 0px auto 140px;
-  text-align: left;
-}
+
 .left{
   padding: 0 7%;
-}
-.cricket{
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-
-.trek{
-  float:right;
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-.guitar{
-  float:left;
-  margin-right: 30px;
-  margin-bottom: 10px;
 }
 .mountain{
   padding-right: 5%;
   margin-top: 25%;
   width: 100%;
 }
-
-img{
-  width:25%;
+.webpic,.codingpic, .deeppic, .trekpic, .guitarpic, .cricketpic{
+  width:70%;
+  margin: 0 auto;
+}
+.webtext,.codingtext, .deeptext, .trektext, .guitartext, .crickettext{
+  text-align: center;
+  margin: auto;
+  padding: 30px 5% 0 5%;
+}
+.trektext, .guitartext, .crickettext{
+  padding: 60px 5% 0 5%;
+}
+.codingpic{
+  padding: 10%;
+}
+.guitarpic{
+  width: 53%;
 }
 .top-container {
   background-color: #e0fffe;
   position: relative;
 }
-p{
+.black-p{
+  font-weight: 500;
+  color: black;
   line-height: 1.5;
 }
-.coding{
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 10px;
+p{
+  font-weight: 500;
+  color: #808080;
+  line-height: 1.5;
 }
-.web{
-  float:right;
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-.deeplearn{
-  float:left;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
+
 .contact-me{
   margin-bottom: 40px;
 }
 a{
   text-decoration: none;
 }
-
+.bottom-div{
+  width:60%;
+  margin: auto;
+}
 .bottom-container{
   background-color: #1b1717;
   color: #fef8e6;
-  padding: 80px 0 40px;
+  padding: 80px 0 3%;
+}
+.white-p{
+    color: #fef8e6;
 }
 .footer-link{
   color: #fef8e6;
