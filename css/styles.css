@@ -21,7 +21,7 @@ body{
 h1{
   font-family: 'Dancing Script', cursive;
   font-size: 4.5em;
-  padding-top: 150px;
+  padding-top: 20%;
   font-weight: 500;
   margin-bottom:7%;
 }
@@ -44,7 +44,7 @@ hr{
 }
 .cloud-right{
   position:absolute;
-  top: 55%;
+  top: 50%;
   right: 10%;
   display: inline-block;
   width: 30%;
@@ -54,7 +54,7 @@ hr{
 }
 .cloud-left{
   position:absolute;
-  top: 20%;
+  top: 15%;
   left:5%;
   display: inline-block;
   width: 30%;
@@ -110,7 +110,7 @@ hr{
 }
 .mountain{
   padding-right: 5%;
-  margin-top: 27%;
+  margin-top: 25%;
   width: 100%;
 }
 
