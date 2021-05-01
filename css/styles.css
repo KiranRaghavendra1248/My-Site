@@ -1,22 +1,12 @@
-.brand{
-  width:25px;
-}
+
+
+/* Element Selectors */
 body{
   margin: 0;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.1em;
   color: #132c33;
-}
-#title{
-  background-color: #e0fffe;
-}
-.intro{
-  font-size: 1.3em;
-  font-weight: 500;
-}
-.container-fluid-top, .container-fluid-middle-bottom{
-  padding: 0 10%;
 }
 h1{
   font-family: 'Dancing Script', cursive;
@@ -32,7 +22,6 @@ h2{
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
 }
-
 h3{
   font-weight: bold;
   margin-bottom: 15px;
@@ -46,6 +35,30 @@ hr{
   border-top: dotted #194350 10px;
   margin: 70px auto
 }
+p{
+  font-weight: 500;
+  color: #808080;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* Title and Nav */
+.brand{
+  width:25px;
+}
+#title{
+  background-color: #e0fffe;
+}
+.intro{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.container-fluid-top, .container-fluid-middle-bottom{
+  padding: 0 10%;
+}
 .row{
   margin: 50px 0;
 }
@@ -56,7 +69,6 @@ hr{
   display: inline-block;
   width: 30%;
 }
-
 .cloud-left{
   position:absolute;
   top: 15%;
@@ -72,6 +84,23 @@ hr{
   transform: scale(1.1);
   transition: 300ms linear;
 }
+.nav-item{
+  padding: 0 15px;
+  text-align: left;
+}
+.left{
+  padding: 0 7%;
+}
+.mountain{
+  padding-right: 5%;
+  margin-top: 25%;
+  width: 100%;
+}
+
+
+
+/* Top container */
+/* About me */
 .profile-pic{
   margin-bottom: 20px;
   width: 60%;
@@ -84,6 +113,14 @@ hr{
   box-shadow:0 10px 10px -1px #8a8a8a;
   transition: 250ms linear;
 }
+
+
+
+/* Middle container */
+.middle-container{
+  margin-top: 33px;
+}
+/* Skills and Interest */
 .card{
   margin-top: 5%;;
 }
@@ -91,20 +128,6 @@ hr{
   transform: translate3d(0,-10px,0);
   box-shadow:0 10px 10px -1px #8a8a8a;
   transition: 250ms linear;
-}
-
-.nav-item{
-  padding: 0 15px;
-  text-align: left;
-}
-
-.left{
-  padding: 0 7%;
-}
-.mountain{
-  padding-right: 5%;
-  margin-top: 25%;
-  width: 100%;
 }
 .webpic,.codingpic, .deeppic, .guitarpic{
   width:70%;
@@ -132,28 +155,21 @@ hr{
 .guitarpic{
   width: 53%;
 }
-.top-container {
-  background-color: #e0fffe;
-  position: relative;
-}
 .black-p{
   font-weight: 500;
   color: black;
   line-height: 1.5;
 }
-p{
-  font-weight: 500;
-  color: #808080;
-  line-height: 1.5;
-}
 
+
+/* Bottom container */
+/* Contact me */
 .contact-me{
   margin-bottom: 40px;
   padding:0 5%;
 }
-a{
-  text-decoration: none;
-}
+
+/* Footer */
 .bottom-div{
   text-align: center;
   font-size: 1rem;
@@ -176,9 +192,9 @@ a{
 .footer-link:hover{
   color: #a3a3a3;
 }
-.middle-container{
-  margin-top: 33px;
-}
+
+
+
 /* Tablet size */
 @media (max-width:995px) and (min-width:765px){
   .left{
