@@ -1,0 +1,215 @@
+
+
+/* Element Selectors */
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.1em;
+  color: #132c33;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5em;
+  padding-top: 20%;
+  font-weight: 500;
+  margin-bottom:7%;
+}
+h2{
+  font-weight: bolder;
+  margin:auto;
+  margin-bottom: 25px;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+hr{
+  width:7%;
+  border: None;
+  border-top: dotted #194350 10px;
+  margin: 70px auto
+}
+p{
+  font-weight: 500;
+  color: #808080;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* Title and Nav */
+.brand{
+  width:25px;
+}
+#title{
+  background-color: #e0fffe;
+}
+.intro{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.container-fluid-top, .container-fluid-middle-bottom{
+  padding: 0 10%;
+}
+.row{
+  margin: 50px 0;
+}
+.cloud-right{
+  position:absolute;
+  top: 50%;
+  right: 10%;
+  display: inline-block;
+  width: 30%;
+}
+.cloud-left{
+  position:absolute;
+  top: 15%;
+  left:5%;
+  display: inline-block;
+  width: 30%;
+}
+.cloud-left:hover{
+  transform: scale(1.1);
+  transition: 500ms linear;
+}
+.cloud-right:hover{
+  transform: scale(1.1);
+  transition: 300ms linear;
+}
+.nav-item{
+  padding: 0 15px;
+  text-align: left;
+}
+.left{
+  padding: 0 7%;
+}
+.mountain{
+  padding-right: 5%;
+  margin-top: 25%;
+  width: 100%;
+}
+
+
+
+/* Top container */
+/* About me */
+.profile-pic{
+  margin-bottom: 20px;
+  width: 60%;
+}
+.profile-div{
+  margin: 0 auto;
+}
+.profile-pic:hover{
+  transform: translate3d(0,-10px,0);
+  box-shadow:0 10px 10px -1px #8a8a8a;
+  transition: 250ms linear;
+}
+
+
+
+/* Middle container */
+.middle-container{
+  margin-top: 33px;
+}
+/* Skills and Interest */
+.card{
+  margin-top: 5%;;
+}
+.card:hover{
+  transform: translate3d(0,-10px,0);
+  box-shadow:0 10px 10px -1px #8a8a8a;
+  transition: 250ms linear;
+}
+.webpic,.codingpic, .deeppic, .guitarpic{
+  width:70%;
+  margin: 0 auto;
+}
+.cricketpic, .trekpic{
+  width: 70%;
+  padding-top: 40px ;
+  margin: 0 auto;
+}
+.guitarpic{
+  padding-top: 37px;
+}
+.webtext,.codingtext, .deeptext, .trektext, .guitartext, .crickettext{
+  text-align: center;
+  margin: auto;
+  padding: 30px 5% 0 5%;
+}
+.trektext, .guitartext, .crickettext{
+  padding: 60px 5% 0 5%;
+}
+.codingpic{
+  padding: 10%;
+}
+.guitarpic{
+  width: 53%;
+}
+.black-p{
+  font-weight: 500;
+  color: black;
+  line-height: 1.5;
+}
+
+
+/* Bottom container */
+/* Contact me */
+.contact-me{
+  margin-bottom: 40px;
+  padding:0 5%;
+}
+
+/* Footer */
+.bottom-div{
+  text-align: center;
+  font-size: 1rem;
+}
+.bottom-container{
+  background-color: #1b1717;
+  color: #fef8e6;
+  padding: 30px 0 22px;
+}
+.white-p{
+  color: #fef8e6;
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin: 10px 0 10px 0;
+}
+.footer-link{
+  color: #fef8e6;
+  margin: 0 7px;
+}
+.footer-link:hover{
+  color: #a3a3a3;
+}
+
+
+
+/* Tablet size */
+@media (max-width:995px) and (min-width:765px){
+  .left{
+    font-size: .8em;
+  }
+  .container-fluid-middle-bottom{
+    padding: 0 20%;
+  }
+  .card{
+    margin-top: 7%;
+  }
+}
+/* Phone size */
+@media (max-width:765px){
+  .card{
+    margin-top: 7%;
+  }
+}
